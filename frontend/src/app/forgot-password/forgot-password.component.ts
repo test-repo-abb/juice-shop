@@ -28,10 +28,13 @@ export class ForgotPasswordComponent {
   public securityQuestion?: string
   public error?: string
   public confirmation?: string
-  public timeoutDuration = 1000
 
 
   
+  public timeoutDuration = 1000
+
+
+
 
 
   private timeout
