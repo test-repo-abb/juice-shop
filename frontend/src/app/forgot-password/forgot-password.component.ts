@@ -27,10 +27,12 @@ export class ForgotPasswordComponent {
   public repeatPasswordControl: UntypedFormControl = new UntypedFormControl({ disabled: true, value: '' }, [Validators.required, matchValidator(this.passwordControl)])
   public securityQuestion?: string
   public error?: string
+
+  
   public confirmation?: string
 
 
-  
+
   public timeoutDuration = 1000
 
 
