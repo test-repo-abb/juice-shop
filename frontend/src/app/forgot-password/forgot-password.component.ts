@@ -30,7 +30,10 @@ export class ForgotPasswordComponent {
   public confirmation?: string
   public timeoutDuration = 1000
 
+
   
+
+
   private timeout
 
   constructor (private readonly securityQuestionService: SecurityQuestionService, private readonly userService: UserService, private readonly translate: TranslateService) { }
