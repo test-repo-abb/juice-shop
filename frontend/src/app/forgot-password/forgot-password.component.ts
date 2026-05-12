@@ -29,6 +29,8 @@ export class ForgotPasswordComponent {
   public error?: string
 
   
+
+  
   public confirmation?: string
 
 
