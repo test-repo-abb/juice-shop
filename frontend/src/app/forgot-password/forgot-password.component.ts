@@ -26,6 +26,8 @@ export class ForgotPasswordComponent {
   public passwordControl: UntypedFormControl = new UntypedFormControl({ disabled: true, value: '' }, [Validators.required, Validators.minLength(5)])
   public repeatPasswordControl: UntypedFormControl = new UntypedFormControl({ disabled: true, value: '' }, [Validators.required, matchValidator(this.passwordControl)])
   public securityQuestion?: string
+
+  
   public error?: string
 
   
