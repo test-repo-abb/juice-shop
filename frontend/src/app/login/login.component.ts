@@ -11,8 +11,6 @@ import { UntypedFormControl, Validators } from '@angular/forms'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { UserService } from '../Services/user.service'
 import { faEye, faEyeSlash, faKey } from '@fortawesome/free-solid-svg-icons'
-
-
 import { faGoogle } from '@fortawesome/free-brands-svg-icons'
 import { FormSubmitService } from '../Services/form-submit.service'
 import { ConfigurationService } from '../Services/configuration.service'

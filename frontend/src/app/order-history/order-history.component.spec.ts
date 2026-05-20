@@ -46,8 +46,6 @@ describe('AccountingComponent', () => {
       imports: [
         RouterTestingModule,
         HttpClientTestingModule,
-
-        
         TranslateModule.forRoot(),
         BrowserAnimationsModule,
         MatTableModule,
