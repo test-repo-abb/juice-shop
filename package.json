@@ -91,6 +91,8 @@
     ],
     "testMatch": [
       "<rootDir>/test/api/*Spec.[jt]s"
+
+      
     ],
     "testPathIgnorePatterns": [
       "/node_modules/",
